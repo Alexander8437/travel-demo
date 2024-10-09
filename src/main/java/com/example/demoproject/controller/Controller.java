@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	
 	
-	@GetMapping("/")
+	@GetMapping("/demo")
 	public String getHello() {
 		return "This is demo project";
 	}
